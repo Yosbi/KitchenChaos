@@ -14,6 +14,5 @@ public class ClearCounter : MonoBehaviour
         kitchenObjectTransform.localPosition = Vector3.zero;
 
         Debug.Log(kitchenObjectTransform.GetComponent<KitchenObject>().GetKitchenObjectSO().objectName);
-
    }
 }
