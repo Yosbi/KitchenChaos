@@ -123,7 +123,6 @@ public class Player : MonoBehaviour
             transform.position += moveDir * moveDistance;
 
         transform.forward = Vector3.Slerp(transform.forward, moveDir, Time.deltaTime * rotationSpeed);
-    
         isWalking = moveDir != Vector3.zero;
     }
 
