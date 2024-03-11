@@ -5,6 +5,6 @@ using UnityEngine;
 public class ClearCounter : MonoBehaviour
 {
    public void Interact() {
-    
+        print("Interacting with ClearCounter");
    }
 }
